@@ -44,10 +44,10 @@ const Header = () => {
                 </div>
 
                 <ul className={`${styles.navLinks} ${isMenuActive ? styles.active : ""}`}>
-                    <li><Link href="#" className={styles.links}>Home</Link></li>
-                    <li><Link href="#" className={styles.links}>Sobre</Link></li>
-                    <li><Link href="#" className={styles.links}>Programas</Link></li>
-                    <li><Link href="#" className={styles.links}>Transparência</Link></li>
+                    <li><Link href="/" className={styles.links}>Home</Link></li>
+                    <li><Link href="/Sobre" className={styles.links}>Sobre</Link></li>
+                    <li><Link href="/Programa" className={styles.links}>Programas</Link></li>
+                    <li><Link href="/Transparencia" className={styles.links}>Transparência</Link></li>
                 </ul>
             </nav>
         </header>

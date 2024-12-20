@@ -3,6 +3,7 @@
     padding: 10px 20px;
     color: white;
     display: flex;
+    border-radius: 0 0 12px 12px;
 }
 .logo {
     height: 60px;
@@ -16,15 +17,15 @@
     width: 100%;
     /* Limita o Scroll: */
     /* height: 10vh; */
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 .navLinks {
     display: flex;
     list-style: none;
     margin-left: auto;
     font-size: 16px;
-    
+    gap: 50px;
 }
 .navLinks li {
     margin: 0 20px;
