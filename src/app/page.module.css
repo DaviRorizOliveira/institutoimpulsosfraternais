@@ -1,0 +1,51 @@
+.welcomeSection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background: url('../../public/images/background/background1.png') no-repeat center center;
+    background-size: cover;
+    padding-top: 10%;
+    padding: 10%;
+    align-items: center; /* Centraliza horizontalmente */
+    justify-content: center;
+    gap: 3%;
+}
+.glassEffect1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--vidro1); /* Fundo translúcido */
+    backdrop-filter: blur(1px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com Safari */
+    z-index: 1; /* Coloque o efeito abaixo do conteúdo */
+}
+.glassEffect2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--vidro2); /* Fundo translúcido */
+    backdrop-filter: blur(1px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com Safari */
+    z-index: 0; /* Coloque o efeito abaixo do conteúdo */
+}
+.welcome {
+    z-index: 2;
+}
+.logo {
+    height: 350px;
+    width: auto;
+    z-index: 2;
+}
+.welcomeH2 {
+    color: var(--color6);
+    font-size: 36px;
+    padding-bottom: 25px;
+}
+.welcomeH1 {
+    color: var(--color1);
+    font-size: 42px;
+}

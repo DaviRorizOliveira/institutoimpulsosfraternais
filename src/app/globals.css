@@ -16,6 +16,9 @@
     --color15: #7E5757;
     --color16: #604617;
     --color17: #3F2121;
+
+    --vidro1: #F6D6B58E;
+    --vidro2: #59150650;
 }
 
 @media (prefers-color-scheme: dark) {
