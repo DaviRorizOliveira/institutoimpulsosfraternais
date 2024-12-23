@@ -15,6 +15,11 @@
 .info, .title, .subTitle {
     padding-bottom: 20px;
 }
+.title {
+    font-weight: 500;
+}.subTitle {
+    font-weight: 300;
+}
 .redes {
     display: flex;
     align-items: center;
@@ -26,4 +31,6 @@
 }
 .links {
     padding-bottom: 20%;
+    font-size: 20px;
+    font-weight: 400;
 }

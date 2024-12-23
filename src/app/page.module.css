@@ -4,7 +4,6 @@
     flex-direction: row;
     background: url('../../public/images/background/background1.png') no-repeat center center;
     background-size: cover;
-    padding-top: 10%;
     padding: 10%;
     align-items: center; /* Centraliza horizontalmente */
     justify-content: center;
@@ -44,8 +43,56 @@
     color: var(--color6);
     font-size: 36px;
     padding-bottom: 25px;
+    font-weight: 600;
 }
 .welcomeH1 {
     color: var(--color1);
     font-size: 42px;
+    font-weight: 600;
+}
+.objectiveSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: url('../../public/images/background/background2.png') no-repeat center center;
+    background-size: cover;
+    padding: 10%;
+    /* gap: 3%; */
+}
+.glassEffect3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--vidro3); /* Fundo translúcido */
+    backdrop-filter: blur(1px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com Safari */
+    z-index: 0; /* Coloque o efeito abaixo do conteúdo */
+}
+.auxiliar {
+    z-index: 2;
+}
+.objectiveTitle {
+    color: var(--color4);
+    font-size: 34px;
+    padding-bottom: 25px;
+}
+.objectiveText {
+    font-size: 22px;
+    text-indent: 2em;
+    padding-bottom: 65px;
+}
+.infoTitle {
+    color: var(--color4);
+    font-size: 22px;
+    font-weight: 600;
+}
+.infoText {
+    font-size: 22px;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
