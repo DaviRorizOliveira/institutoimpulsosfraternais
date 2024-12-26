@@ -3,7 +3,7 @@
     padding: 10px 20px;
     color: white;
     display: flex;
-    border-radius: 0 0 12px 12px;
+    /* border-radius: 0 0 12px 12px; */
 }
 .logo {
     height: 60px;

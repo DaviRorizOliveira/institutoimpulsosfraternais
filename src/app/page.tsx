@@ -2,6 +2,9 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 import logo from "../../public/images/logo/logoClara.png";
+import equipe from "../../public/images/outros/equipe.png";
+
+import ArrowIcon from '@mui/icons-material/ArrowForward';
 
 export default function Home() {
     return (
@@ -36,7 +39,20 @@ export default function Home() {
                 </div>
             </section>
             
-            <section className={styles.section}></section>
+            <section className={styles.teamSection}>
+                <div className={styles.glassEffect4}></div> {/* Efeito de vidro 4 */}
+                <div className={styles.teamImage}>
+                    <img src={equipe.src} alt="Foto da equipe" className={styles.imagem}/>
+                </div>
+                <div className={styles.teamText}>
+                    <h1 className={styles.teamTitle}>Conheça nossa equipe</h1>
+                    <p className={styles.teamInfo}>Veja quem faz parte do nosso time e está sempre disposto a melhorar a vida de muitas pessoas</p>
+                    <a href="#" className={styles.saibaMais}>
+                        <p className={styles.icons}>Saiba Mais</p>
+                        <ArrowIcon className={styles.icons}/>
+                    </a>
+                </div>
+            </section>
             <section className={styles.section}></section>
         </main>
     );

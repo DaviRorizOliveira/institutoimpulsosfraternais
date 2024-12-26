@@ -5,7 +5,7 @@
     background: url('../../public/images/background/background1.png') no-repeat center center;
     background-size: cover;
     padding: 10%;
-    align-items: center; /* Centraliza horizontalmente */
+    align-items: center;
     justify-content: center;
     gap: 3%;
 }
@@ -95,4 +95,70 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+.glassEffect2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--vidro4); /* Fundo translúcido */
+    backdrop-filter: blur(1px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com Safari */
+    z-index: 0; /* Coloque o efeito abaixo do conteúdo */
+}
+.teamSection {
+    background: url('../../public/images/background/background3.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.imagem {
+    height: auto;
+    width: 100%;
+}
+.teamTitle {
+    color: var(--color9);
+    font-size: 34px;
+    padding-bottom: 60px;
+}
+.teamImage, .teamText {
+    width: 50%;
+}
+.teamText {
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.saibaMais {
+    display: inline-flex; /* Permite alinhar o texto e o ícone horizontalmente */
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+    text-decoration: none; /* Remove o sublinhado padrão de links */
+    color: var(--color9); /* Cor inicial do texto */
+    background-color: transparent; /* Fundo inicial */
+    padding: 10px 20px; /* Ajuste o espaçamento interno */
+    border: 2px solid var(--color9); /* Borda inicial */
+    border-radius: 8px; /* Bordas arredondadas */
+    transition: all 0.3s ease; /* Transição suave para o hover */
+}
+.teamInfo {
+    padding-bottom: 60px;
+    color: var(--color5);
+    font-size: 22px;
+}
+.icons {
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--color9);
+    transition: transform 0.3s ease;
+}
+.saibaMais:hover {
+    transform: scale(1.05); /* Aumenta levemente o tamanho */
+}
+  
+.saibaMais:hover .icons {
+    transform: translateX(5px); /* Move o ícone um pouco para a direita */
+    transition: transform 0.3s ease; /* Transição suave para o movimento */
 }
