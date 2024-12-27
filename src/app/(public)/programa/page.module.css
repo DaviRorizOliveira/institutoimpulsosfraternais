@@ -1,0 +1,84 @@
+.saibaMais {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: url('../../../../public/images/background/background5.png') no-repeat center center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    padding: 8% 15% 4% 15%; /* Top - Right - Bottom - Left */
+}
+.glassEffect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--vidro5); /* Fundo translúcido */
+    backdrop-filter: blur(1px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com Safari */
+    z-index: 0; /* Coloque o efeito abaixo do conteúdo */
+}
+.saibaMaisTitle, .saibaMaisText, .seta {
+    z-index: 1;
+}
+.saibaMaisTitle {
+    font-size: 34px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.saibaMaisText {
+    font-size: 26px;
+    font-weight: 600;
+}
+.seta {
+    height: 100px;
+    width: auto;
+}
+.anual, .mensal, .projeto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10% 5% 10%; /* Top - Right - Bottom - Left */
+    gap: 5%;
+}
+.anual {
+    background-color: var(--color13);
+}
+.mensal {
+    background-color: var(--color9);
+}
+.projeto {
+    background-color: var(--color16);
+}
+.subTitle, .text {
+    color: var(--color2);
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.text {
+    text-indent: 3em;
+    font-weight: 300;
+    text-align: justify;
+}
+.title {
+    color: var(--color4);
+    padding-bottom: 30px;
+    font-size: 32px;
+}
+.info {
+    padding-bottom: 40px;
+}
+.icon {
+    height: 220px;
+    width: auto;
+}
+.iconsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.subTitle {
+    padding-bottom: 25px;
+}
