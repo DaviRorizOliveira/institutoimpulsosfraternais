@@ -40,9 +40,7 @@ export default function Home() {
             
             <section className={styles.teamSection}>
                 <div className={styles.glassEffect4}></div> {/* Efeito de vidro 4 */}
-                <div className={styles.teamImage}>
-                    <img src={equipe.src} alt="Foto da equipe" className={styles.imagem}/>
-                </div>
+                <img src={equipe.src} alt="Foto da equipe" className={styles.imagem}/>
                 <div className={styles.teamText}>
                     <h1 className={styles.teamTitle}>Conheça nossa equipe</h1>
                     <p className={styles.teamInfo}>Veja quem faz parte do nosso time e está sempre disposto a melhorar a vida de muitas pessoas</p>
@@ -52,7 +50,28 @@ export default function Home() {
                     </a>
                 </div>
             </section>
-            <section className={styles.section}></section>
+            <section className={styles.linkSection}>
+                <div className={styles.glassEffect5}></div> {/* Efeito de vidro 5 */}
+                <div className={styles.linkConteudo}>
+                    <div className={styles.divisao}>
+                        <h2 className={styles.divisaoTitle}>Nossos Programas e Projetos</h2>
+                        <p className={styles.divisaoText}>Conheça os projetos e os programas desenvolvidos pelo Instituto</p>
+                        <a href="#" className={styles.button}>
+                            <p className={styles.buttonIcon}>Saiba Mais</p>
+                            <ArrowIcon className={styles.buttonIcon}/>
+                        </a>
+                    </div>
+                    <div className={styles.divisoria}></div> {/* Linha Divisória Vertical */}
+                    <div className={styles.divisao}>
+                        <h2 className={styles.divisaoTitle}>Trasparência</h2>
+                        <p className={styles.divisaoText}>Conheça as  nossas diretrizes e relatórios de impacto</p>
+                        <a href="#" className={styles.button}>
+                            <p className={styles.buttonIcon}>Saiba Mais</p>
+                            <ArrowIcon className={styles.buttonIcon}/>
+                        </a>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }
