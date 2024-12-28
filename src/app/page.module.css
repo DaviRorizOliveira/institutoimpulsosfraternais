@@ -146,6 +146,7 @@
     border: 2px solid var(--color9); /* Borda inicial */
     border-radius: 8px; /* Bordas arredondadas */
     transition: all 0.3s ease; /* Transição suave para o hover */
+    gap: 5px;
 }
 .teamInfo {
     padding-bottom: 60px;
@@ -228,6 +229,7 @@
     border: 2px solid var(--color2); /* Borda inicial */
     border-radius: 8px; /* Bordas arredondadas */
     transition: all 0.3s ease; /* Transição suave para o hover */
+    gap: 5px;
 }
 .buttonIcon {
     font-weight: 600;
