@@ -1,0 +1,102 @@
+.transparenciaSection {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background: url('../../../../public/images/background/background6.png') no-repeat center center;
+    background-attachment: fixed; /* Fixa a imagem de fundo */
+    background-size: cover;
+    padding: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.glassEffect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--vidro6); /* Fundo translúcido */
+    backdrop-filter: blur(1px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com Safari */
+    z-index: 0; /* Coloque o efeito abaixo do conteúdo */
+}
+.auxiliar {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.transparenciaText {
+    font-weight: 300;
+    text-indent: 3em;
+    font-size: 18px;
+    text-align: justify;
+}
+.transparenciaTitle {
+    padding-bottom: 80px;
+    font-size: 32px;
+}
+/* ============================================================== */
+.estatutoSection {
+    background-color: var(--color2);
+    padding: 5% 10% 5% 10%; /* Top - Right - Bottom - Left */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.estatutoTitle, .estatutoText, .estatutoIndent {
+    color: var(--color18);
+}
+.estatutoText, .estatutoIndent {
+    font-size: 18px;
+    text-align: justify;
+    padding-bottom: 20px;
+    font-weight: 300;
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.textBold {
+    font-weight: 700;
+}
+.estatutoIndent {
+    text-indent: 3em;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+}
+.estatutoTitle {
+    padding-bottom: 60px;
+    font-size: 32px;
+}
+/* ============================================================== */
+.relatorioSection {
+    background-color: var(--color9);
+    padding: 5% 10% 5% 10%; /* Top - Right - Bottom - Left */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.relatorioTitle, .relatorioSubTitle, .relatorioText {
+    color: var(--color2);
+}
+.relatorioTitle {
+    padding-bottom: 60px;
+    font-size: 32px;
+}
+.relatorioText {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: 300;
+    text-indent: 3em;
+}
+.relatorioSubTitle {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
