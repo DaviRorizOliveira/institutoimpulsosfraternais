@@ -42,13 +42,13 @@
 }
 .welcomeH2 {
     color: var(--color6);
-    font-size: 36px;
+    font-size: var(--titleFont);
     padding-bottom: 25px;
     font-weight: 600;
 }
 .welcomeH1 {
     color: var(--color1);
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 600;
 }
 .objectiveSection {
@@ -76,26 +76,23 @@
 }
 .objectiveTitle {
     color: var(--color4);
-    font-size: 34px;
+    font-size: var(--titleFont);
     padding-bottom: 25px;
 }
 .objectiveText {
-    font-size: 22px;
+    font-size: var(--textFont);
     text-indent: 2em;
     padding-bottom: 65px;
+    color: white;
 }
 .infoTitle {
     color: var(--color4);
-    font-size: 22px;
     font-weight: 600;
 }
 .infoText {
-    font-size: 22px;
-}
-.info {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+    font-size: var(--textFont);
+    color: white;
+    padding-bottom: 10px;
 }
 .glassEffect4 {
     position: absolute;
@@ -121,7 +118,7 @@
 }
 .teamTitle {
     color: var(--color9);
-    font-size: 34px;
+    font-size: var(--titleFont);
     padding-bottom: 60px;
     z-index: 1;
 }
@@ -151,11 +148,11 @@
 .teamInfo {
     padding-bottom: 60px;
     color: var(--color5);
-    font-size: 22px;
+    font-size: var(--textFont);
 }
 .icons {
     font-weight: 600;
-    font-size: 22px;
+    font-size: var(--textFont);
     color: var(--color9);
     transition: transform 0.3s ease;
 }
@@ -205,18 +202,18 @@
     align-items: center;
     justify-content: center;
     width: 50%;
+    height: 100%;
+    gap: 80px;
 }
 .divisaoTitle, .divisaoText, .buttonIcon {
     color: var(--color2);
 }
 .divisaoTitle {
-    font-size: 28px;
-    padding-bottom: 80px;
+    font-size: var(--titleFont);
     font-weight: 700;
 }
 .divisaoText {
-    font-size: 22px;
-    padding-bottom: 80px;
+    font-size: var(--textFont);
     text-align: center;
 }
 .button {

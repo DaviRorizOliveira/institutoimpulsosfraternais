@@ -25,6 +25,10 @@
     --vidro5: #7E575780;
     --vidro6: #3F212180;
     --vidro7: #441818C8;
+
+    --titleFont: 32px;
+    --subTitleFont: 22px;
+    --textFont: 18px;
 }
 
 * {
@@ -36,10 +40,4 @@
 a {
     color: inherit;
     text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: dark;
-    }
 }

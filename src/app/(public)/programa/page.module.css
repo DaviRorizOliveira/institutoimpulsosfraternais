@@ -22,9 +22,10 @@
 }
 .saibaMaisTitle, .saibaMaisText, .seta {
     z-index: 1;
+    color: white;
 }
 .saibaMaisTitle {
-    font-size: 34px;
+    font-size: var(--titleFont);
     padding-bottom: 80px;
     text-align: center;
 }
@@ -33,7 +34,7 @@
     font-weight: 600;
 }
 .seta {
-    height: 100px;
+    height: 70px;
     width: auto;
 }
 .anual, .mensal, .projeto {
@@ -55,7 +56,7 @@
 }
 .subTitle, .text {
     color: var(--color2);
-    font-size: 18px;
+    font-size: var(--textFont);
     padding-bottom: 5px;
 }
 .text {
@@ -66,7 +67,7 @@
 .title {
     color: var(--color4);
     padding-bottom: 30px;
-    font-size: 32px;
+    font-size: var(--titleFont);
 }
 .info {
     padding-bottom: 40px;

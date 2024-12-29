@@ -34,10 +34,10 @@ const Footer = () =>{
             </section>
             <section>
                 <ul className={styles.navLinks}>
-                    <li className={styles.links}><Link href="/">Home</Link></li>
-                    <li className={styles.links}><Link href="/Sobre">Sobre</Link></li>
-                    <li className={styles.links}><Link href="/Programa">Programas</Link></li>
-                    <li className={styles.links}><Link href="/Transparencia">Transparência</Link></li>
+                    <li className={styles.links}><Link href="/" className={styles.linkText}>Home</Link></li>
+                    <li className={styles.links}><Link href="/Sobre" className={styles.linkText}>Sobre</Link></li>
+                    <li className={styles.links}><Link href="/Programa" className={styles.linkText}>Programas</Link></li>
+                    <li className={styles.links}><Link href="/Transparencia" className={styles.linkText}>Transparência</Link></li>
                 </ul>
             </section>
         </footer>

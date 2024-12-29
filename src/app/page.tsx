@@ -23,18 +23,9 @@ export default function Home() {
                 <div className={styles.auxiliar}>
                     <h3 className={styles.objectiveTitle}>Objetivo</h3>
                     <p className={styles.objectiveText}>Nosso foco é levar ajuda às pessoas, buscando estar próximo delas e construir boas memórias através da escuta ativa e do auxílio pontual; conhecer suas necessidades, suas angústias e limitações com o objetivo de promover cidadania no enfrentamento das desigualdades por meio dos direitos socioassistenciais.</p>
-                    <div className={styles.info}>
-                        <p className={styles.infoTitle}>O que fazemos:</p>
-                        <p className={styles.infoText}>Alimentamos, Informamos, Orientamos e Educamos</p>
-                    </div>
-                    <div className={styles.info}>
-                        <p className={styles.infoTitle}>Onde estamos:</p>
-                        <p className={styles.infoText}>No Estado da Bahia, com o sonho de atender a todos Estados Brasileiros</p>
-                    </div>
-                    <div className={styles.info}>
-                        <p className={styles.infoTitle}>Organizações Sociais Parceiras:</p>
-                        <p className={styles.infoText}>GACC</p>
-                    </div>
+                    <p className={styles.infoText}><span className={styles.infoTitle}>O que fazemos:</span> Alimentamos, Informamos, Orientamos e Educamos</p>
+                    <p className={styles.infoText}><span className={styles.infoTitle}>Onde estamos:</span> No Estado da Bahia, com o sonho de atender a todos os Estados Brasileiros</p>
+                    <p className={styles.infoText}><span className={styles.infoTitle}>Organizações Sociais Parceiras:</span> GACC</p>
                 </div>
             </section>
             

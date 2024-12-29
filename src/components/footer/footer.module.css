@@ -34,3 +34,6 @@
     font-size: 20px;
     font-weight: 400;
 }
+.title, .subTitle, .icons, .linkText {
+    color: white;
+}
