@@ -1,0 +1,107 @@
+.identidadeSection {
+    position: relative;
+    background: url('../../../../public/images/background/background7.png') no-repeat center center;
+    background-attachment: fixed; /* Fixa a imagem de fundo */
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glassEffect1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--vidro8); /* Fundo translúcido */
+    backdrop-filter: blur(1px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com Safari */
+    z-index: 0; /* Coloque o efeito abaixo do conteúdo */
+}
+.auxiliar {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    padding: 5% 10% 5% 10%; /* Top - Right - Bottom - Left */
+}
+.divisoria {
+    width: 6px; /* Espessura da linha */
+    background-color: var(--color4); /* Cor da linha */
+    height: auto; /* Altura da linha igual às divs adjacentes */
+}
+.divisao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.divisao2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.identidadeTitle, .identidadeSubTitle, .identidadeText {
+    color: white;
+}
+.identidadeTitle {
+    font-size: var(--titleFont);
+    text-align: center;
+    font-weight: 600;
+}
+.identidadeSubTitle {
+    padding-bottom: 20px;
+    font-size: var(--subTitleFont);
+    font-weight: 600;
+}
+.identidadeText {
+    text-indent: 3em;
+    text-align: justify;
+    font-size: var(--textFont);
+    font-weight: 300;
+}
+/* =============================================== */
+.estruturaSection {
+    position: relative;
+    background: url('../../../../public/images/background/background8.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 5% 10% 5% 10%; /* Top - Right - Bottom - Left */
+}
+.estruturaTitle, .estruturaText {
+    color: white;
+}
+.estruturaTitle {
+    font-size: var(--titleFont);
+    font-weight: 600;
+}
+.estruturaText {
+    text-indent: 3em;
+    text-align: justify;
+    font-size: var(--textFont);
+    font-weight: 300;
+}
+/* =============================================== */
+.historiaSection {
+    background-color: var(--color9);
+    padding: 5% 10% 5% 10%; /* Top - Right - Bottom - Left */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.historiaSubTitle {
+    color: white;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.lateral {
+    width: 32px; /* Espessura da linha */
+    background-color: var(--color4); /* Cor da linha */
+    height: auto; /* Altura da linha igual às divs adjacentes */
+}
