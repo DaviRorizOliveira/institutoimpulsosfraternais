@@ -40,7 +40,44 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className={styles.cardSection}></section>
+            <section className={styles.cardSection}>
+                <div className={styles.glassEffect2}></div> {/* Efeito de vidro 2 */}
+                <div className={styles.cards}>
+                    <div className={styles.flip}>
+                        <div className={styles.inner}>
+                            <div className={`${styles.front} ${styles.missao}`}>
+                                <h3 className={styles.cardFrontTitle}>Missão</h3>
+                            </div>
+                            <div className={styles.back}>
+                                <h3 className={styles.cardBackTitle}>Missão</h3>
+                                <p className={styles.cardBackText}>Nossa missão é a busca por uma sociedade mais justa e igualitária entregando refrigério aos angustiados, acolhimento para os perdidos. Assim sendo, o Instituto impulsiona o que há de melhor nas pessoas com a finalidade de conviver em uma sociedade mais humanizada.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.flip}>
+                        <div className={styles.inner}>
+                            <div className={`${styles.front} ${styles.visao}`}>
+                                <h3 className={styles.cardFrontTitle}>Visão</h3>
+                            </div>
+                            <div className={styles.back}>
+                                <h3 className={styles.cardBackTitle}>Visão</h3>
+                                <p className={styles.cardBackText}>Nossa visão  é ser uma célula de desenvolvimento sócio assistencial que promove alívio à fome, a dor física e emocional nas pessoas em situação de rua e que se encontram desanimadas em razão da enfermidade cancerígena.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={styles.flip}>
+                        <div className={styles.inner}>
+                            <div className={`${styles.front} ${styles.valores}`}>
+                                <h3 className={styles.cardFrontTitle}>Valores</h3>
+                            </div>
+                            <div className={styles.back}>
+                                <h3 className={styles.cardBackTitle}>Valores</h3>
+                                <p className={styles.cardBackText}>Integridade, ética, sustentabilidade, responsabilidade, acolhimento, humildade, compaixão, comprometimento.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className={styles.principioSection}></section>
         </main>
     );
