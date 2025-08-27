@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    background: url('../../public/images/background/background1.png') no-repeat center center;
+    background: url('../../public/images/background/backgroundx.jpg') no-repeat center center;
     background-attachment: fixed; /* Fixa a imagem de fundo */
     background-size: cover;
     padding: 10%;
